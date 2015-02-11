@@ -1,6 +1,10 @@
 State Library         {#mainpage}
 =============
 
+Project homepage
+----------------
+[web site](http://allali.github.io/statelib/)
+
 About
 -----
 C implementation of a basic state design pattern
