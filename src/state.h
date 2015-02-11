@@ -1,3 +1,14 @@
+/* ------------------------------------------------- *
+ *
+ * this code is under LIT Licence
+ * 
+ * author: Julien Allali (allali.julien@gmail.com)
+ *
+ * Change log:
+ * 02 11 2015: inital version
+ *
+ * ------------------------------------------------- */
+
 /*! \file state.h
  * \brief state library api
  * 
