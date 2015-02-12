@@ -4,7 +4,7 @@
 /* ------------------------------------------------- *
  *
  * this code is under LIT Licence
- * 
+ *
  * author: Julien Allali (allali.julien@gmail.com)
  *
  * Change log:
@@ -42,13 +42,13 @@ struct StateMachine *state_newmachine(){
 }
 
 void state_free(struct StateMachine *p){
-  struct State *t=p->list,*q;
-  while(t!=NULL){
-    q=t;
-    t=t->next;
-    free(q);
-  }
-  free(p);
+    struct State *t=p->list,*q;
+    while(t!=NULL){
+        q=t;
+        t=t->next;
+        free(q);
+    }
+    free(p);
 }
 
 int state_add_transition(struct StateMachine *machine,StateFunc from, int value, StateFunc to){
@@ -61,7 +61,7 @@ int state_add_transition(struct StateMachine *machine,StateFunc from, int value,
     }
     q=NULL;
     p=machine->list;
-    while((p->next!=NULL) && (p->from<=from)&& (p->value<=value)){
+    while((p!=NULL) && (p->from<=from)&& (p->value<=value)){
         q=p;
         p=p->next;
     }
