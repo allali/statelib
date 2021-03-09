@@ -3,7 +3,7 @@
 
 /* ------------------------------------------------- *
  *
- * this code is under LIT Licence
+ * this code is under MIT Licence
  *
  * author: Julien Allali (allali.julien@gmail.com)
  *
